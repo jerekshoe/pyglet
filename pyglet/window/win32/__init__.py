@@ -103,7 +103,6 @@ class Win32Window(BaseWindow):
     _exclusive_mouse_screen = None
     _exclusive_mouse_lpos = None
     _exclusive_mouse_buttons = 0
-    _mouse_platform_visible = True
     
     _keyboard_state = {0x02A: False, 0x036: False}  # For shift keys.
 

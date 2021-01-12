@@ -417,6 +417,7 @@ class BaseWindow(with_metaclass(_WindowMetaclass, EventDispatcher)):
     _mouse_cursor = DefaultMouseCursor()
     _mouse_x = 0
     _mouse_y = 0
+    _mouse_platform_visible = True
     _mouse_visible = True
     _mouse_exclusive = False
     _mouse_in_window = False

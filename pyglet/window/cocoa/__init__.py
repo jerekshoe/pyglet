@@ -82,7 +82,6 @@ class CocoaWindow(BaseWindow):
     _delegate = None
 
     # Window properties
-    _mouse_platform_visible = True
     _mouse_ignore_motion = False
 
     # Flag set during close() method.
